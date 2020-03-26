@@ -32,6 +32,18 @@ parseInt(a)+parseInt(b)
 "1"+"1" = 11
 parseInt("1")+parseInt("1") =2
 1+1="11"
+
+1+1
+2
+""+1+1
+"11"
+var a = 1;
+undefined
+var b = 1;
+undefined
+a.toString()+b.toString()
+"11"
+
 */
 
 parseInt("1")
