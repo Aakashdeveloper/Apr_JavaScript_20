@@ -3,10 +3,10 @@ Ecma 5
 Ecma 6
 > variable
 > Operations
-------------------
 > condition
 > if else
 > ternery Operations
+------------------
 > Date
 > switch
 > localstorage
@@ -25,7 +25,6 @@ Ecma 6
     > classes
     > import export
 > Prototypes
----------------------
 > DoM
 > Event
 > Calc
@@ -42,5 +41,4 @@ Ecma 6
 
 
 //
-String Operations
 Math Operations
