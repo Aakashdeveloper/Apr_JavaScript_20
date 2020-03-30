@@ -6,10 +6,10 @@ Ecma 6
 > condition
 > if else
 > ternery Operations
-------------------
 > Date
 > switch
 > localstorage
+------------------
 > array
 > loops
 > functions 
@@ -41,4 +41,20 @@ Ecma 6
 
 
 //
-Math Operations
+array
+loops
+
+/**************
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testrepo.git
+git push -u origin master
+*****************/
+/**************
+git add .
+git commit -m "first commit"
+git push
+*****************/
+
+https://git-scm.com/downloads
