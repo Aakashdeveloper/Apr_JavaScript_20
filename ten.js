@@ -92,3 +92,88 @@ and save every result
 once 5 chance done now
 evaluate if number of loose > win than you loose else you win 
 */
+
+Slice 
+Splice
+
+var city= ["Tapia", "Delhi", "Newyork", "Amsterdam", "Helsinki", "Mumbai"]
+
+
+var city= ["Tapia", "Delhi", "Newyork", "Amsterdam", "Helsinki", "Mumbai"]
+undefined
+city.slice(3,5)
+(2) ["Amsterdam", "Helsinki"]
+city
+(6) ["Tapia", "Delhi", "Newyork", "Amsterdam", "Helsinki", "Mumbai"]
+city.splice(2,0,'Paris','Nice')
+[]
+city
+(8) ["Tapia", "Delhi", "Paris", "Nice", "Newyork", "Amsterdam", "Helsinki", "Mumbai"]
+city.splice(3,1)
+["Nice"]
+city
+(7) ["Tapia", "Delhi", "Paris", "Newyork", "Amsterdam", "Helsinki", "Mumbai"]
+city.splice(3,1,'Hongkong','DanHuag')
+["Newyork"]
+city
+(8) ["Tapia", "Delhi", "Paris", "Hongkong", "DanHuag", "Amsterdam", "Helsinki", "Mumbai"]
+var city = ["Tapia", "Delhi", "Paris", "Hongkong", "DanHuag", "Amsterdam", "Helsinki", "Mumbai"]
+undefined
+city.indexOf('Pisa')
+-1
+city.indexOf('London')
+-1
+city.indexOf('Delhi')
+1
+city.indexOf('Helsinki')
+6
+var first = ['a','b','c']
+undefined
+var seecond =[1,2,3]
+undefined
+first+seecond
+"a,b,c1,2,3"
+first.concat(seecond)
+(6) ["a", "b", "c", 1, 2, 3]
+var third=['Red','Yellow','Green']
+undefined
+first.concat(seecond,third)
+(9) ["a", "b", "c", 1, 2, 3, "Red", "Yellow", "Green"]
+
+var test = [['a','b','c'], 1,2,3,['hi','hey',['test1','test2']],true,[1]]
+test[4][2][0]
+
+var city = ["Tapia", "Delhi", "Paris", "Hongkong", "DanHuag", "Amsterdam", "Helsinki", "Mumbai"]
+
+undefined
+city.sort()
+(8) ["Amsterdam", "DanHuag", "Delhi", "Helsinki", "Hongkong", "Mumbai", "Paris", "Tapia"]
+city.reverse()
+(8) ["Tapia", "Paris", "Mumbai", "Hongkong", "Helsinki", "Delhi", "DanHuag", "Amsterdam"]
+
+
+city.includes('Delhi')
+true
+city.includes('London')
+false
+
+//Check any value from array satisfy condition or not
+
+function checkval(val,index,array){
+    return val>2
+}
+
+console.log([2,5,6,7,9].some(checkval))
+function checkval(val,index,array){
+    return val>8
+}
+
+console.log([2,5,6,7,9].some(checkval))
+VM1194:5 true
+undefined
+function checkval(val,index,array){
+    return val>10
+}
+
+console.log([2,5,6,7,9].some(checkval))
+VM1200:5 false
