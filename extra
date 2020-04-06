@@ -17,9 +17,9 @@ Ecma 6
 > functions 
 > Clousers
 > regex
--------------------------
 > Hoisting
 > object 
+-------------------------
 > Transpile
 > Es6
     > classes
@@ -41,8 +41,8 @@ Ecma 6
 
 
 //
-array
-loops
+package.JSON
+npm
 
 /**************
 git init
