@@ -19,11 +19,11 @@ Ecma 6
 > regex
 > Hoisting
 > object 
--------------------------
 > Transpile
 > Es6
     > classes
     > import export
+-------------------------
 > Prototypes
 > DoM
 > Event
@@ -58,3 +58,9 @@ git push
 *****************/
 
 https://git-scm.com/downloads
+
+
+/***** Package.json*********/
+> Navigatee to the folder
+> npm init -y
+> npm i @babel/core @babel/preset-env @babel/register

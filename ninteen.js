@@ -62,6 +62,8 @@ var calc = {
     sub:(a,b)=>{return a-b}
 }
 
+calc.sum
+
 function calc(){
     this.sum=(a,b) => { return a+b}
     this.sub= (a,b) =>{return a-b}
