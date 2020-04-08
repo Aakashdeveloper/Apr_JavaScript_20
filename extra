@@ -23,14 +23,15 @@ Ecma 6
 > Es6
     > classes
     > import export
--------------------------
 > Prototypes
 > DoM
+> Geolocation
+-------------------------
 > Event
 > Calc
 > Form validation
-> Geolocation
 > Progress bar
+> currenyConvertor
 > promis
 > async await
 > Baisc Jquery
@@ -64,3 +65,8 @@ https://git-scm.com/downloads
 > Navigatee to the folder
 > npm init -y
 > npm i @babel/core @babel/preset-env @babel/register
+
+
+TagName
+ClassName
+Id
