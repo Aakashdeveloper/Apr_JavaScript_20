@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script src="twentysix.js"></script>
+    </head>
+    <body>
+        <form action="" method="POST">
+            <div>
+                <label>FirstName</label>
+                <input type="text" id="fname" name="fname"
+                onblur="validate()"/>
+            </div>
+            <div>
+                <label>LastName</label>
+                <input type="text" id="lname" name="lname"
+                oninput="validatel()"/>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="text" id="email" name="email"
+                onblur="emailvalid()"/>
+            </div>
+            <button type="button" id="submit" 
+            onClick="finalVallidate()">
+                Submit
+            </button>
+        </form>
+        <p id="output"> </p>
+    </body>
+</html>
